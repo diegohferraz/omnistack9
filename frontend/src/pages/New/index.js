@@ -26,7 +26,7 @@ export default function New ({ history }) {
     data.append('techs', techs)
     data.append('price', price)
 
-    await api.post('/spot', data, {
+    await api.post('/spots', data, {
       headers: { user_id }
     })
 
