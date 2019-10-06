@@ -1,5 +1,5 @@
 ul.spot-list {
-  width: 100%;
+  widows: 100%;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9,7 +9,7 @@ ul.spot-list {
 
 ul.spot-list li {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 ul.spot-list li header {
@@ -30,3 +30,29 @@ ul.spot-list li span {
   color: #999;
 }
 
+ul.notifications {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul.notifications li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul.notifications li button {
+  margin-right: 10px;
+  border:0;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  background: transparent;
+}
+
+button.accept{
+  color: #80c870;
+}
+
+button.reject{
+  color: #e55e5e;
+}
